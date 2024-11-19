@@ -71,15 +71,43 @@ a {
   text-align: left;
   font-size: 30px;
 }
+
+
 ::placeholder{
   font-size: 30px;
 }
 
 
+.buttonDel{
+  color: pink;
+}
 
+.button{
+  background-color: #0476aa; /* Green */
+  border: none;
+  border-radius: 25px;
 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.add button{
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 25px;
+  background: #218cad;
 
+  padding: 30px;
+  width: auto;
+  height: auto;
+}
 
+.add{
+  padding: 10px;
+}
 .container {  
   text-align: center;
   font-style: italic;
