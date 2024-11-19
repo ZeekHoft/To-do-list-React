@@ -68,7 +68,8 @@ a {
 }
 
 .items{
-  text-align: center;
+  text-align: left;
+  font-size: 30px;
 }
 ::placeholder{
   font-size: 30px;
@@ -79,6 +80,14 @@ a {
 
 
 
-
-
-
+.container {  
+  text-align: center;
+  font-style: italic;
+  border-radius: 25px;
+  background: #218cad;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding: 30px;
+  width: auto;
+  height: auto;
+}  

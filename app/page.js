@@ -29,6 +29,8 @@ export default function Home() {
     <div className="m-5">
       <div className="heading"><h1>To Do List "Do your List"</h1></div>
       
+
+      <div className="container">
       <div className="input">
         <input
           style={{width: "370px", height: "50px", fontSize:"30px"}}
@@ -68,6 +70,7 @@ export default function Home() {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }
